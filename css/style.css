@@ -84,9 +84,7 @@ a:link {
 }
 
 /* END OF 2ND HEADER */
-.detroix-man {
 
-}
 
 .detroixMan {
     position: relative;
@@ -105,11 +103,44 @@ a:link {
 }
 
 .circles {
-    position: relative;
+    /* position: relative; */
     padding: 15px;
     background-color: #808080;
     top: 95px;
     display: inline;
     border-radius: 50%;
-    margin: 1px;
+    margin-top: 100px;
+    margin-left: 3px;
+}
+
+/* END OF CIRCLES */
+
+.featuresContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.features {
+    border: 1px solid black;
+    
+}
+
+
+
+
+
+
+
+
+/* END OF FEATURES */
+
+footer {
+    
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    background-color: #0b0b31;
+    clear: both;
+    margin-top: 20px;
+
 }
