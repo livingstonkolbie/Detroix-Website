@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #f2f3f5;
+}
+
+/* START */
+
+.blueHeader {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    background-color: #0b0b31;
+    margin: 0px;       
+    z-index: 1;
+}
+
+.demoLink {
+    position: relative;
+    color:#a0a0a2;
+    padding: 1px;
+    left: 100px;
+    top: 9px;
+    letter-spacing: 1px;
+    
+}
+
+.blueHeaderNav li {
+    display: inline;    
+    color: white;   
+}
+
+a:link {
+    position: relative;
+    text-decoration: none;
+    color: #a0a0a2;
+    padding-top: 7px;
+    right: 100px;
+    top: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* END OF THE BLUE HEADER */
+
+.mainHeader {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 95px;
+    /* left: 87px; */
+}
+
+.mainHeader img {
+    position: relative;
+    bottom: 24px;
+    right: 119px;
+}
+
+.boxItem {
+
+    position: relative;
+    top: 27px;
+    left: 109px;
+
+    display: inline;
+    background-color: #0b0b31;
+    color: #eaeaed;
+    padding: 4px 20px;
+    border-radius: 6px;
+    font-family: "Oswald", serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+
+}
+
+/* END OF 2ND HEADER */
+.detroix-man {
+
+}
+
+.detroixMan {
+    position: relative;
+    top: 99px;
+    left: 102px;
+    width: 87%;
+    border-radius: 10px;
+}
+
+/* END OF DETROIX MAN IMAGE */
+
+.circlesContainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.circles {
+    position: relative;
+    padding: 15px;
+    background-color: #808080;
+    top: 95px;
+    display: inline;
+    border-radius: 50%;
+    margin: 1px;
+}
