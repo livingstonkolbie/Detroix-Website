@@ -29,11 +29,15 @@
     left: 100px;
     top: 9px;
     letter-spacing: 1px;  
+    font-family: arial;
+    font-size: small;
 }
 
 .blueHeaderNav li {
     display: inline;    
     color: white;   
+    font-family: arial;
+    font-size: small;
 }
 
 a:link {
