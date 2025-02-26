@@ -9,7 +9,11 @@
     background-color: #f2f3f5;
 }
 
-/* START */
+
+
+/* START OF BLUE HEADER */
+
+
 
 .blueHeader {
     position: fixed;
@@ -17,72 +21,80 @@
     justify-content: space-between;
     width: 100%;
     height: 40px;
-    background-color: #0b0b31;
     margin: 0px;       
+    background-color: #0b0b31;
     z-index: 1;
 }
 
 .demoLink {
     position: relative;
-    color:#a0a0a2;
-    padding: 1px;
     left: 100px;
     top: 9px;
-    letter-spacing: 1px;  
+    padding: 1px;
     font-family: arial;
     font-size: small;
+    letter-spacing: 1px;  
+    color:#a0a0a2;
 }
 
 .blueHeaderNav li {
     display: inline;    
-    color: white;   
     font-family: arial;
     font-size: small;
+    color: white;   
 }
 
 a:link {
     position: relative;
-    text-decoration: none;
-    color: #a0a0a2;
-    padding-top: 7px;
-    right: 100px;
     top: 9px;
+    right: 100px;
+    padding-top: 7px;
+    text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: #a0a0a2;
 }
 
-/* END OF THE BLUE HEADER */
+
+
+/* END OF THE BLUE HEADER
+    START OF MAIN HEADER */
+
+
 
 .mainHeader {
     position: relative;
     display: flex;
     justify-content: space-around;
     top: 95px;
-    /* left: 87px; */
 }
 
 .mainHeader img {
     position: relative;
-    bottom: 24px;
     right: 119px;
+    bottom: 24px;
 }
 
 .boxItem {
     position: relative;
+    display: inline;
     top: 27px;
     left: 109px;
-    display: inline;
-    background-color: #0b0b31;
-    color: #eaeaed;
-    padding: 4px 20px;
     border-radius: 6px;
+    padding: 4px 20px;
     font-family: "Oswald", serif;
     font-weight: lighter;
     letter-spacing: 1px;
     text-transform: uppercase;
+    background-color: #0b0b31;
+    color: #eaeaed;
 }
 
-/* END OF 2ND HEADER */
+
+
+/* END OF MAIN HEADER
+    START OF BIG DETROIX MAN IMAGE */
+
 
 
 .detroixMan {
@@ -93,7 +105,12 @@ a:link {
     border-radius: 10px;
 }
 
-/* END OF DETROIX MAN IMAGE */
+
+
+/* END OF DETROIX MAN IMAGE
+    START OF CIRCLES */
+
+
 
 .circlesContainer {
     display: flex;
@@ -101,43 +118,48 @@ a:link {
 }
 
 .circles {
-    /* position: relative; */
-    padding: 15px;
-    background-color: #808080;
-    top: 95px;
     display: inline;
+    top: 95px;
     border-radius: 50%;
     margin-top: 100px;
     margin-left: 3px;
+    padding: 15px;
+    background-color: #808080;
 }
 
-/* END OF CIRCLES */
+
+
+/* END OF CIRCLES
+    START OF FEATURES SECTION */
+
+
 
 .featuresContainer {
     display: flex;
+    position: relative;
     justify-content: center;
+    bottom: 23px;
+    margin-right: 26px;
+    margin-left: 41px;
+    font-family: Arial, sans-serif; 
     text-align: left;
     color: grey;   
-    margin-left: 41px;
-    margin-right: 26px;
-    font-family: Arial;
 }
 
 .features {
     border: 3px solid grey;
-    /* height: 400px; */
-    padding: 50px;
-    margin-top: 30px;
     border-top: 4px solid grey;
     border-bottom: none;   
+    margin-top: 30px;
+    padding: 50px;
 }
 
 h2 {
+    margin-bottom: 30px;  
     font-family: "Oswald", sans-serif;
     font-weight: light;
     letter-spacing: 2px;
     color: black;
-    margin-bottom: 30px;  
 }
 
 .features img {
@@ -160,12 +182,12 @@ p {
 button {
     width: 100px;
     height: 40px;
-    background-color: #213349;
-    color: white;
-    text-transform: uppercase;
-    font-size: larger;
     border-radius: 5px;
     margin-top: 40px;
+    font-size: larger;
+    text-transform: uppercase;
+    background-color: #213349;
+    color: white;
 }
 
 .stableButton {
@@ -173,17 +195,22 @@ button {
     top: 5px;
 }
 
-/* END OF FEATURES */
+
+
+/* END OF FEATURES SECTION
+    START OF FOOTER SECTION */
+
 
 
 footer {
+    position: relative;
+    bottom: 43px;
     width: 100%;
     height: 600px;
-    background: linear-gradient(0deg, rgba(23,37,52,1) 0%, rgba(15,24,33,1) 100%);
     margin-top: 20px;
-    position: relative;
-    color: white;
     font-family: arial;
+    background: linear-gradient(0deg, rgba(23,37,52,1) 0%, rgba(15,24,33,1) 100%);
+    color: white;
 }
 
 .threeSections {
@@ -197,9 +224,9 @@ footer {
 }
 
 .footerItems h2 {
-    color: white;
     font-family: "Oswald", serif;
     text-transform: uppercase;
+    color: white;
 }
 
 .ulFooter {
@@ -207,9 +234,9 @@ footer {
 }
 
 .ulFooter li {
+    display: flex;
     width: 300px;
     margin-bottom: 15px;
-    display: flex;
 }
 
 .ulFooter li p {
@@ -218,17 +245,17 @@ footer {
 }
 
 .ulFooter li img {
+    position: relative;
+    top: 4px;
     width: 10px;
     height: 10px;
     margin-right: 7px;
-    position: relative;
-    top: 4px;
 }
 
 .boxOpportunity img {
-    width: 15px;
     position: relative;
     right: 5px;
+    width: 15px;
 }
 
 .boxOpportunity h3 {
@@ -236,13 +263,13 @@ footer {
 }
 
 .boxOpportunity p {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 350px;
-    padding-right: 5px;
-    color: grey;
     position: relative;
     left: 22px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 5px;
+    color: grey;
 }
 
 .newsDates {
@@ -253,11 +280,12 @@ footer {
     width: 80px;
     margin-right: 20px;
     margin-bottom: 20px;
+    border-radius: 17px;
 }
 
 .newsDates p {
-    color: grey;
     width: 300px;
+    color: grey;
 }
 
 .servicesButton {
@@ -279,7 +307,7 @@ footer {
 .extraFooter {
 
     position: absolute;
-    bottom: 0;
+    bottom: -44px;
     width: 100%;
     height: 80px;
     background-color: #0b0b31;
@@ -288,7 +316,7 @@ footer {
 
 .extraFooter p {
     position: relative;
-    text-transform: uppercase;
     top: 33px;
     padding-left: 75px;
+    text-transform: uppercase;
 }
